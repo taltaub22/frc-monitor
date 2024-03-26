@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE287E132BB2CE8C0056F4F6 /* FRC_Field_MonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E122BB2CE8C0056F4F6 /* FRC_Field_MonitorApp.swift */; };
+		DE287E152BB2CE8C0056F4F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E142BB2CE8C0056F4F6 /* ContentView.swift */; };
+		DE287E172BB2CE8D0056F4F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE287E162BB2CE8D0056F4F6 /* Assets.xcassets */; };
+		DE287E1A2BB2CE8D0056F4F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE287E192BB2CE8D0056F4F6 /* Preview Assets.xcassets */; };
+		DE287E202BB2CE8D0056F4F6 /* FRC Field Monitor Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DE287E1F2BB2CE8D0056F4F6 /* FRC Field Monitor Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DE287E252BB2CE8D0056F4F6 /* FRC_Field_MonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E242BB2CE8D0056F4F6 /* FRC_Field_MonitorApp.swift */; };
+		DE287E272BB2CE8D0056F4F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E262BB2CE8D0056F4F6 /* ContentView.swift */; };
+		DE287E292BB2CE8D0056F4F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE287E282BB2CE8D0056F4F6 /* Assets.xcassets */; };
+		DE287E2C2BB2CE8D0056F4F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE287E2B2BB2CE8D0056F4F6 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE287E212BB2CE8D0056F4F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE287E072BB2CE8C0056F4F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE287E1E2BB2CE8D0056F4F6;
+			remoteInfo = "FRC Field Monitor Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DE287E322BB2CE8D0056F4F6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DE287E202BB2CE8D0056F4F6 /* FRC Field Monitor Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DE287E0F2BB2CE8C0056F4F6 /* FRC Field Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FRC Field Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE287E122BB2CE8C0056F4F6 /* FRC_Field_MonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRC_Field_MonitorApp.swift; sourceTree = "<group>"; };
+		DE287E142BB2CE8C0056F4F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE287E162BB2CE8D0056F4F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE287E192BB2CE8D0056F4F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE287E1F2BB2CE8D0056F4F6 /* FRC Field Monitor Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FRC Field Monitor Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE287E242BB2CE8D0056F4F6 /* FRC_Field_MonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRC_Field_MonitorApp.swift; sourceTree = "<group>"; };
+		DE287E262BB2CE8D0056F4F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE287E282BB2CE8D0056F4F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE287E2B2BB2CE8D0056F4F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE287E0C2BB2CE8C0056F4F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE287E1C2BB2CE8D0056F4F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE287E062BB2CE8C0056F4F6 = {
+			isa = PBXGroup;
+			children = (
+				DE287E112BB2CE8C0056F4F6 /* FRC Field Monitor */,
+				DE287E232BB2CE8D0056F4F6 /* FRC Field Monitor Watch App */,
+				DE287E102BB2CE8C0056F4F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE287E102BB2CE8C0056F4F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE287E0F2BB2CE8C0056F4F6 /* FRC Field Monitor.app */,
+				DE287E1F2BB2CE8D0056F4F6 /* FRC Field Monitor Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE287E112BB2CE8C0056F4F6 /* FRC Field Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				DE287E122BB2CE8C0056F4F6 /* FRC_Field_MonitorApp.swift */,
+				DE287E142BB2CE8C0056F4F6 /* ContentView.swift */,
+				DE287E162BB2CE8D0056F4F6 /* Assets.xcassets */,
+				DE287E182BB2CE8D0056F4F6 /* Preview Content */,
+			);
+			path = "FRC Field Monitor";
+			sourceTree = "<group>";
+		};
+		DE287E182BB2CE8D0056F4F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE287E192BB2CE8D0056F4F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE287E232BB2CE8D0056F4F6 /* FRC Field Monitor Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DE287E242BB2CE8D0056F4F6 /* FRC_Field_MonitorApp.swift */,
+				DE287E262BB2CE8D0056F4F6 /* ContentView.swift */,
+				DE287E282BB2CE8D0056F4F6 /* Assets.xcassets */,
+				DE287E2A2BB2CE8D0056F4F6 /* Preview Content */,
+			);
+			path = "FRC Field Monitor Watch App";
+			sourceTree = "<group>";
+		};
+		DE287E2A2BB2CE8D0056F4F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE287E2B2BB2CE8D0056F4F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE287E0E2BB2CE8C0056F4F6 /* FRC Field Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE287E332BB2CE8D0056F4F6 /* Build configuration list for PBXNativeTarget "FRC Field Monitor" */;
+			buildPhases = (
+				DE287E0B2BB2CE8C0056F4F6 /* Sources */,
+				DE287E0C2BB2CE8C0056F4F6 /* Frameworks */,
+				DE287E0D2BB2CE8C0056F4F6 /* Resources */,
+				DE287E322BB2CE8D0056F4F6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE287E222BB2CE8D0056F4F6 /* PBXTargetDependency */,
+			);
+			name = "FRC Field Monitor";
+			productName = "FRC Field Monitor";
+			productReference = DE287E0F2BB2CE8C0056F4F6 /* FRC Field Monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE287E1E2BB2CE8D0056F4F6 /* FRC Field Monitor Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE287E2F2BB2CE8D0056F4F6 /* Build configuration list for PBXNativeTarget "FRC Field Monitor Watch App" */;
+			buildPhases = (
+				DE287E1B2BB2CE8D0056F4F6 /* Sources */,
+				DE287E1C2BB2CE8D0056F4F6 /* Frameworks */,
+				DE287E1D2BB2CE8D0056F4F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FRC Field Monitor Watch App";
+			productName = "FRC Field Monitor Watch App";
+			productReference = DE287E1F2BB2CE8D0056F4F6 /* FRC Field Monitor Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE287E072BB2CE8C0056F4F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					DE287E0E2BB2CE8C0056F4F6 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					DE287E1E2BB2CE8D0056F4F6 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = DE287E0A2BB2CE8C0056F4F6 /* Build configuration list for PBXProject "FRC Field Monitor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE287E062BB2CE8C0056F4F6;
+			productRefGroup = DE287E102BB2CE8C0056F4F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE287E0E2BB2CE8C0056F4F6 /* FRC Field Monitor */,
+				DE287E1E2BB2CE8D0056F4F6 /* FRC Field Monitor Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE287E0D2BB2CE8C0056F4F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE287E1A2BB2CE8D0056F4F6 /* Preview Assets.xcassets in Resources */,
+				DE287E172BB2CE8D0056F4F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE287E1D2BB2CE8D0056F4F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE287E2C2BB2CE8D0056F4F6 /* Preview Assets.xcassets in Resources */,
+				DE287E292BB2CE8D0056F4F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE287E0B2BB2CE8C0056F4F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE287E152BB2CE8C0056F4F6 /* ContentView.swift in Sources */,
+				DE287E132BB2CE8C0056F4F6 /* FRC_Field_MonitorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE287E1B2BB2CE8D0056F4F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE287E272BB2CE8D0056F4F6 /* ContentView.swift in Sources */,
+				DE287E252BB2CE8D0056F4F6 /* FRC_Field_MonitorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE287E222BB2CE8D0056F4F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE287E1E2BB2CE8D0056F4F6 /* FRC Field Monitor Watch App */;
+			targetProxy = DE287E212BB2CE8D0056F4F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE287E2D2BB2CE8D0056F4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE287E2E2BB2CE8D0056F4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DE287E302BB2CE8D0056F4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FRC Field Monitor Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = W67Z753L2K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "FRC Field Monitor";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.ttaub.FRC-Field-Monitor";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ttaub.FRC-Field-Monitor.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		DE287E312BB2CE8D0056F4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FRC Field Monitor Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = W67Z753L2K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "FRC Field Monitor";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.ttaub.FRC-Field-Monitor";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ttaub.FRC-Field-Monitor.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		DE287E342BB2CE8D0056F4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FRC Field Monitor/Preview Content\"";
+				DEVELOPMENT_TEAM = W67Z753L2K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "FRC Field Monitor";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ttaub.FRC-Field-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE287E352BB2CE8D0056F4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FRC Field Monitor/Preview Content\"";
+				DEVELOPMENT_TEAM = W67Z753L2K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "FRC Field Monitor";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ttaub.FRC-Field-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE287E0A2BB2CE8C0056F4F6 /* Build configuration list for PBXProject "FRC Field Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE287E2D2BB2CE8D0056F4F6 /* Debug */,
+				DE287E2E2BB2CE8D0056F4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE287E2F2BB2CE8D0056F4F6 /* Build configuration list for PBXNativeTarget "FRC Field Monitor Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE287E302BB2CE8D0056F4F6 /* Debug */,
+				DE287E312BB2CE8D0056F4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE287E332BB2CE8D0056F4F6 /* Build configuration list for PBXNativeTarget "FRC Field Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE287E342BB2CE8D0056F4F6 /* Debug */,
+				DE287E352BB2CE8D0056F4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE287E072BB2CE8C0056F4F6 /* Project object */;
+}
