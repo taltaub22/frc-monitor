@@ -7,12 +7,25 @@
 		<key>FRC Field Monitor Watch App.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>4</integer>
 		</dict>
 		<key>FRC Field Monitor.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>DE287E0E2BB2CE8C0056F4F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DE287E1E2BB2CE8D0056F4F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

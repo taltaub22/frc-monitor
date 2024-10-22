@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct FRC_Field_Monitor_Watch_AppApp: App {
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/).navigationBarHidden(true)
         }
     }
 }

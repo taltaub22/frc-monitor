@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE1B9CE42BB2F72000A39897 /* Pods_FRC_Field_Monitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A896BB9D520136BF156EE7 /* Pods_FRC_Field_Monitor.framework */; };
+		DE1B9CE72BB2F72600A39897 /* Pods_FRC_Field_Monitor_Watch_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6850DF50A50E7E19A1356C06 /* Pods_FRC_Field_Monitor_Watch_App.framework */; };
+		DE1B9CEA2BB2F81000A39897 /* Alliance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E362BB2CF910056F4F6 /* Alliance.swift */; };
+		DE1B9CEB2BB2F81000A39897 /* FieldStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E372BB2CF910056F4F6 /* FieldStatus.swift */; };
+		DE1B9CEC2BB2F81000A39897 /* RobotStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E382BB2CF910056F4F6 /* RobotStatus.swift */; };
+		DE1B9CED2BB2F81000A39897 /* MatchAndPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E422BB2CF910056F4F6 /* MatchAndPlay.swift */; };
+		DE1B9CEE2BB2F81000A39897 /* TeamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E432BB2CF910056F4F6 /* TeamData.swift */; };
+		DE1B9CEF2BB2F85000A39897 /* Alliance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E362BB2CF910056F4F6 /* Alliance.swift */; };
+		DE1B9CF02BB2F85000A39897 /* FieldStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E372BB2CF910056F4F6 /* FieldStatus.swift */; };
+		DE1B9CF12BB2F85000A39897 /* RobotStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E382BB2CF910056F4F6 /* RobotStatus.swift */; };
+		DE1B9CF22BB2F85000A39897 /* MatchAndPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E422BB2CF910056F4F6 /* MatchAndPlay.swift */; };
+		DE1B9CF32BB2F85000A39897 /* TeamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E432BB2CF910056F4F6 /* TeamData.swift */; };
+		DE1B9CF42BB2F86900A39897 /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E412BB2CF910056F4F6 /* Consts.swift */; };
+		DE1B9CF52BB2F86D00A39897 /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E412BB2CF910056F4F6 /* Consts.swift */; };
+		DE1B9CF62BB2F89B00A39897 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E402BB2CF910056F4F6 /* TeamView.swift */; };
+		DE1B9CF72BB2F8D500A39897 /* HTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E3A2BB2CF910056F4F6 /* HTTPService.swift */; };
+		DE1B9CFA2BB2F8D500A39897 /* TeamDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E3E2BB2CF910056F4F6 /* TeamDataService.swift */; };
+		DE1B9CFD2BB3001C00A39897 /* WatchConnectibityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B9CFC2BB3001C00A39897 /* WatchConnectibityManager.swift */; };
+		DE1B9CFE2BB3004500A39897 /* WatchConnectibityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B9CFC2BB3001C00A39897 /* WatchConnectibityManager.swift */; };
+		DE1B9D332BB337BA00A39897 /* TeamDataDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B9D322BB337BA00A39897 /* TeamDataDTO.swift */; };
+		DE1B9D342BB337BA00A39897 /* TeamDataDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B9D322BB337BA00A39897 /* TeamDataDTO.swift */; };
+		DE1B9D372BB340AA00A39897 /* MatchAheadBehindService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B9D352BB340AA00A39897 /* MatchAheadBehindService.swift */; };
+		DE1B9D382BB340AA00A39897 /* MatchAheadBehindService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B9D352BB340AA00A39897 /* MatchAheadBehindService.swift */; };
+		DE1B9D392BB340AA00A39897 /* MatchInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B9D362BB340AA00A39897 /* MatchInfoService.swift */; };
+		DE1B9D3A2BB340AA00A39897 /* MatchInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B9D362BB340AA00A39897 /* MatchInfoService.swift */; };
+		DE1B9D3C2BB343A800A39897 /* MatchAndPlayDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B9D3B2BB343A800A39897 /* MatchAndPlayDTO.swift */; };
+		DE1B9D3D2BB343A800A39897 /* MatchAndPlayDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B9D3B2BB343A800A39897 /* MatchAndPlayDTO.swift */; };
 		DE287E132BB2CE8C0056F4F6 /* FRC_Field_MonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E122BB2CE8C0056F4F6 /* FRC_Field_MonitorApp.swift */; };
 		DE287E152BB2CE8C0056F4F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E142BB2CE8C0056F4F6 /* ContentView.swift */; };
 		DE287E172BB2CE8D0056F4F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE287E162BB2CE8D0056F4F6 /* Assets.xcassets */; };
@@ -16,6 +43,9 @@
 		DE287E272BB2CE8D0056F4F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E262BB2CE8D0056F4F6 /* ContentView.swift */; };
 		DE287E292BB2CE8D0056F4F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE287E282BB2CE8D0056F4F6 /* Assets.xcassets */; };
 		DE287E2C2BB2CE8D0056F4F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE287E2B2BB2CE8D0056F4F6 /* Preview Assets.xcassets */; };
+		DE287E482BB2CF910056F4F6 /* HTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E3A2BB2CF910056F4F6 /* HTTPService.swift */; };
+		DE287E4C2BB2CF910056F4F6 /* TeamDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E3E2BB2CF910056F4F6 /* TeamDataService.swift */; };
+		DE287E532BB2F5050056F4F6 /* SignalRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE287E3D2BB2CF910056F4F6 /* SignalRService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +73,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		34A896BB9D520136BF156EE7 /* Pods_FRC_Field_Monitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FRC_Field_Monitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6850DF50A50E7E19A1356C06 /* Pods_FRC_Field_Monitor_Watch_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FRC_Field_Monitor_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A041532BF7471E77F11E5CC3 /* Pods-FRC Field Monitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRC Field Monitor.release.xcconfig"; path = "Target Support Files/Pods-FRC Field Monitor/Pods-FRC Field Monitor.release.xcconfig"; sourceTree = "<group>"; };
+		B8D1CD99F948FBF118AF69F8 /* Pods-FRC Field Monitor Watch App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRC Field Monitor Watch App.release.xcconfig"; path = "Target Support Files/Pods-FRC Field Monitor Watch App/Pods-FRC Field Monitor Watch App.release.xcconfig"; sourceTree = "<group>"; };
+		D76CFBD1D0D868638C295A26 /* Pods-FRC Field Monitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRC Field Monitor.debug.xcconfig"; path = "Target Support Files/Pods-FRC Field Monitor/Pods-FRC Field Monitor.debug.xcconfig"; sourceTree = "<group>"; };
+		DE1B9CFC2BB3001C00A39897 /* WatchConnectibityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectibityManager.swift; sourceTree = "<group>"; };
+		DE1B9D322BB337BA00A39897 /* TeamDataDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDataDTO.swift; sourceTree = "<group>"; };
+		DE1B9D352BB340AA00A39897 /* MatchAheadBehindService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchAheadBehindService.swift; sourceTree = "<group>"; };
+		DE1B9D362BB340AA00A39897 /* MatchInfoService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchInfoService.swift; sourceTree = "<group>"; };
+		DE1B9D3B2BB343A800A39897 /* MatchAndPlayDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchAndPlayDTO.swift; sourceTree = "<group>"; };
 		DE287E0F2BB2CE8C0056F4F6 /* FRC Field Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FRC Field Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE287E122BB2CE8C0056F4F6 /* FRC_Field_MonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRC_Field_MonitorApp.swift; sourceTree = "<group>"; };
 		DE287E142BB2CE8C0056F4F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +93,19 @@
 		DE287E262BB2CE8D0056F4F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE287E282BB2CE8D0056F4F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE287E2B2BB2CE8D0056F4F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE287E362BB2CF910056F4F6 /* Alliance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alliance.swift; sourceTree = "<group>"; };
+		DE287E372BB2CF910056F4F6 /* FieldStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldStatus.swift; sourceTree = "<group>"; };
+		DE287E382BB2CF910056F4F6 /* RobotStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotStatus.swift; sourceTree = "<group>"; };
+		DE287E3A2BB2CF910056F4F6 /* HTTPService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPService.swift; sourceTree = "<group>"; };
+		DE287E3D2BB2CF910056F4F6 /* SignalRService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalRService.swift; sourceTree = "<group>"; };
+		DE287E3E2BB2CF910056F4F6 /* TeamDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDataService.swift; sourceTree = "<group>"; };
+		DE287E402BB2CF910056F4F6 /* TeamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		DE287E412BB2CF910056F4F6 /* Consts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		DE287E422BB2CF910056F4F6 /* MatchAndPlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchAndPlay.swift; sourceTree = "<group>"; };
+		DE287E432BB2CF910056F4F6 /* TeamData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamData.swift; sourceTree = "<group>"; };
+		DE287E512BB2D0E00056F4F6 /* FRC-Field-Monitor-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FRC-Field-Monitor-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DE287E522BB2D0E70056F4F6 /* FRC-Field-Monitor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FRC-Field-Monitor-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F89036CC86E6419A791ACFCD /* Pods-FRC Field Monitor Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRC Field Monitor Watch App.debug.xcconfig"; path = "Target Support Files/Pods-FRC Field Monitor Watch App/Pods-FRC Field Monitor Watch App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1B9CE42BB2F72000A39897 /* Pods_FRC_Field_Monitor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,18 +121,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1B9CE72BB2F72600A39897 /* Pods_FRC_Field_Monitor_Watch_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AD8FB5169E57002F1E29970 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D76CFBD1D0D868638C295A26 /* Pods-FRC Field Monitor.debug.xcconfig */,
+				A041532BF7471E77F11E5CC3 /* Pods-FRC Field Monitor.release.xcconfig */,
+				F89036CC86E6419A791ACFCD /* Pods-FRC Field Monitor Watch App.debug.xcconfig */,
+				B8D1CD99F948FBF118AF69F8 /* Pods-FRC Field Monitor Watch App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A9C8FFF89688BF94B45C0923 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34A896BB9D520136BF156EE7 /* Pods_FRC_Field_Monitor.framework */,
+				6850DF50A50E7E19A1356C06 /* Pods_FRC_Field_Monitor_Watch_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DE287E062BB2CE8C0056F4F6 = {
 			isa = PBXGroup;
 			children = (
+				DE287E412BB2CF910056F4F6 /* Consts.swift */,
+				DE287E3F2BB2CF910056F4F6 /* Services */,
+				DE287E392BB2CF910056F4F6 /* Enums */,
+				DE287E442BB2CF910056F4F6 /* Models */,
 				DE287E112BB2CE8C0056F4F6 /* FRC Field Monitor */,
 				DE287E232BB2CE8D0056F4F6 /* FRC Field Monitor Watch App */,
 				DE287E102BB2CE8C0056F4F6 /* Products */,
+				2AD8FB5169E57002F1E29970 /* Pods */,
+				A9C8FFF89688BF94B45C0923 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +176,8 @@
 			isa = PBXGroup;
 			children = (
 				DE287E122BB2CE8C0056F4F6 /* FRC_Field_MonitorApp.swift */,
+				DE287E522BB2D0E70056F4F6 /* FRC-Field-Monitor-Info.plist */,
+				DE287E3D2BB2CF910056F4F6 /* SignalRService.swift */,
 				DE287E142BB2CE8C0056F4F6 /* ContentView.swift */,
 				DE287E162BB2CE8D0056F4F6 /* Assets.xcassets */,
 				DE287E182BB2CE8D0056F4F6 /* Preview Content */,
@@ -113,6 +196,8 @@
 		DE287E232BB2CE8D0056F4F6 /* FRC Field Monitor Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				DE287E512BB2D0E00056F4F6 /* FRC-Field-Monitor-Watch-App-Info.plist */,
+				DE287E402BB2CF910056F4F6 /* TeamView.swift */,
 				DE287E242BB2CE8D0056F4F6 /* FRC_Field_MonitorApp.swift */,
 				DE287E262BB2CE8D0056F4F6 /* ContentView.swift */,
 				DE287E282BB2CE8D0056F4F6 /* Assets.xcassets */,
@@ -129,6 +214,39 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DE287E392BB2CF910056F4F6 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				DE287E362BB2CF910056F4F6 /* Alliance.swift */,
+				DE287E372BB2CF910056F4F6 /* FieldStatus.swift */,
+				DE287E382BB2CF910056F4F6 /* RobotStatus.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		DE287E3F2BB2CF910056F4F6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B9D352BB340AA00A39897 /* MatchAheadBehindService.swift */,
+				DE1B9D362BB340AA00A39897 /* MatchInfoService.swift */,
+				DE1B9CFC2BB3001C00A39897 /* WatchConnectibityManager.swift */,
+				DE287E3A2BB2CF910056F4F6 /* HTTPService.swift */,
+				DE287E3E2BB2CF910056F4F6 /* TeamDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DE287E442BB2CF910056F4F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE287E422BB2CF910056F4F6 /* MatchAndPlay.swift */,
+				DE287E432BB2CF910056F4F6 /* TeamData.swift */,
+				DE1B9D322BB337BA00A39897 /* TeamDataDTO.swift */,
+				DE1B9D3B2BB343A800A39897 /* MatchAndPlayDTO.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,10 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE287E332BB2CE8D0056F4F6 /* Build configuration list for PBXNativeTarget "FRC Field Monitor" */;
 			buildPhases = (
+				2622331D690B8416898531A2 /* [CP] Check Pods Manifest.lock */,
 				DE287E0B2BB2CE8C0056F4F6 /* Sources */,
 				DE287E0C2BB2CE8C0056F4F6 /* Frameworks */,
 				DE287E0D2BB2CE8C0056F4F6 /* Resources */,
 				DE287E322BB2CE8D0056F4F6 /* Embed Watch Content */,
+				F11B4E8081CB7D011CFD3827 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,9 +275,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE287E2F2BB2CE8D0056F4F6 /* Build configuration list for PBXNativeTarget "FRC Field Monitor Watch App" */;
 			buildPhases = (
+				39D0B66EAA670FA213D7C247 /* [CP] Check Pods Manifest.lock */,
 				DE287E1B2BB2CE8D0056F4F6 /* Sources */,
 				DE287E1C2BB2CE8D0056F4F6 /* Frameworks */,
 				DE287E1D2BB2CE8D0056F4F6 /* Resources */,
+				51B4F5A95A0C952F8D9A55F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,11 +348,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2622331D690B8416898531A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FRC Field Monitor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39D0B66EAA670FA213D7C247 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FRC Field Monitor Watch App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51B4F5A95A0C952F8D9A55F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FRC Field Monitor Watch App/Pods-FRC Field Monitor Watch App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FRC Field Monitor Watch App/Pods-FRC Field Monitor Watch App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FRC Field Monitor Watch App/Pods-FRC Field Monitor Watch App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F11B4E8081CB7D011CFD3827 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FRC Field Monitor/Pods-FRC Field Monitor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FRC Field Monitor/Pods-FRC Field Monitor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FRC Field Monitor/Pods-FRC Field Monitor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE287E0B2BB2CE8C0056F4F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1B9CF72BB2F8D500A39897 /* HTTPService.swift in Sources */,
+				DE1B9CFA2BB2F8D500A39897 /* TeamDataService.swift in Sources */,
+				DE1B9CF52BB2F86D00A39897 /* Consts.swift in Sources */,
+				DE1B9CEA2BB2F81000A39897 /* Alliance.swift in Sources */,
+				DE1B9D392BB340AA00A39897 /* MatchInfoService.swift in Sources */,
+				DE1B9CEB2BB2F81000A39897 /* FieldStatus.swift in Sources */,
+				DE1B9CEC2BB2F81000A39897 /* RobotStatus.swift in Sources */,
+				DE1B9D332BB337BA00A39897 /* TeamDataDTO.swift in Sources */,
+				DE1B9D372BB340AA00A39897 /* MatchAheadBehindService.swift in Sources */,
+				DE1B9CFD2BB3001C00A39897 /* WatchConnectibityManager.swift in Sources */,
+				DE1B9CED2BB2F81000A39897 /* MatchAndPlay.swift in Sources */,
+				DE1B9CEE2BB2F81000A39897 /* TeamData.swift in Sources */,
+				DE287E532BB2F5050056F4F6 /* SignalRService.swift in Sources */,
+				DE1B9D3C2BB343A800A39897 /* MatchAndPlayDTO.swift in Sources */,
 				DE287E152BB2CE8C0056F4F6 /* ContentView.swift in Sources */,
 				DE287E132BB2CE8C0056F4F6 /* FRC_Field_MonitorApp.swift in Sources */,
 			);
@@ -240,7 +457,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1B9CF62BB2F89B00A39897 /* TeamView.swift in Sources */,
+				DE1B9CF42BB2F86900A39897 /* Consts.swift in Sources */,
+				DE1B9CEF2BB2F85000A39897 /* Alliance.swift in Sources */,
+				DE1B9CF02BB2F85000A39897 /* FieldStatus.swift in Sources */,
+				DE1B9D3A2BB340AA00A39897 /* MatchInfoService.swift in Sources */,
+				DE1B9CF12BB2F85000A39897 /* RobotStatus.swift in Sources */,
+				DE1B9CF22BB2F85000A39897 /* MatchAndPlay.swift in Sources */,
+				DE1B9CF32BB2F85000A39897 /* TeamData.swift in Sources */,
+				DE1B9D382BB340AA00A39897 /* MatchAheadBehindService.swift in Sources */,
+				DE1B9D342BB337BA00A39897 /* TeamDataDTO.swift in Sources */,
+				DE1B9CFE2BB3004500A39897 /* WatchConnectibityManager.swift in Sources */,
+				DE287E4C2BB2CF910056F4F6 /* TeamDataService.swift in Sources */,
 				DE287E272BB2CE8D0056F4F6 /* ContentView.swift in Sources */,
+				DE1B9D3D2BB343A800A39897 /* MatchAndPlayDTO.swift in Sources */,
+				DE287E482BB2CF910056F4F6 /* HTTPService.swift in Sources */,
 				DE287E252BB2CE8D0056F4F6 /* FRC_Field_MonitorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +524,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -354,7 +585,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -372,6 +603,7 @@
 		};
 		DE287E302BB2CE8D0056F4F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F89036CC86E6419A791ACFCD /* Pods-FRC Field Monitor Watch App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -381,6 +613,7 @@
 				DEVELOPMENT_TEAM = W67Z753L2K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FRC-Field-Monitor-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "FRC Field Monitor";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.ttaub.FRC-Field-Monitor";
@@ -402,6 +635,7 @@
 		};
 		DE287E312BB2CE8D0056F4F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D1CD99F948FBF118AF69F8 /* Pods-FRC Field Monitor Watch App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -411,6 +645,7 @@
 				DEVELOPMENT_TEAM = W67Z753L2K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FRC-Field-Monitor-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "FRC Field Monitor";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.ttaub.FRC-Field-Monitor";
@@ -433,6 +668,7 @@
 		};
 		DE287E342BB2CE8D0056F4F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D76CFBD1D0D868638C295A26 /* Pods-FRC Field Monitor.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -443,12 +679,13 @@
 				DEVELOPMENT_TEAM = W67Z753L2K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FRC-Field-Monitor-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "FRC Field Monitor";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -458,14 +695,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ttaub.FRC-Field-Monitor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DE287E352BB2CE8D0056F4F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A041532BF7471E77F11E5CC3 /* Pods-FRC Field Monitor.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -476,12 +718,13 @@
 				DEVELOPMENT_TEAM = W67Z753L2K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FRC-Field-Monitor-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "FRC Field Monitor";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -491,9 +734,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ttaub.FRC-Field-Monitor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

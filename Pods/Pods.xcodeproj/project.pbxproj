@@ -1,0 +1,1125 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01141C876CF0305BEB4C06DDCABB74EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */; };
+		041FD63D682866A1F89358EF8B1928F8 /* HubConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D398CE4F8024BEC63B24C48A37B67C5 /* HubConnection.swift */; };
+		053B97662DEDC087F832623AD35AE4A1 /* JSONHubProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28452774766E924D725F8A8283122E4 /* JSONHubProtocol.swift */; };
+		055C36ED8D28CF06FA43B07BAE65A58D /* HubConnectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC7E999E75E6124B152C9D7B9C1269D /* HubConnectionExtensions.swift */; };
+		055F5D6E62F5F8F61AD399DF472170DE /* HubConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D398CE4F8024BEC63B24C48A37B67C5 /* HubConnection.swift */; };
+		069FA44FB36D2A71C7770735F1B2B108 /* HubConnectionOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F35BF5A30658653CD41C62BE5CB66AD /* HubConnectionOptions.swift */; };
+		094D5C92CDACECBBDC0B80F204E4D869 /* StreamHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3720196266275880BA5378D1DDC3CAB0 /* StreamHandle.swift */; };
+		0FA5A9B0342308E33E97C8FD1824258C /* SignalRError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8070B8B232182B4F72321C47A71B5BFB /* SignalRError.swift */; };
+		0FB65B8929BB19529F57985B5666266C /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F1686F76C2ECE8DF39B7FC607F15A8 /* Logger.swift */; };
+		10CA79BC50B5CA28073D453C19DACD21 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F00E7FF9D09E1F56B4DA40CB223DAB /* Transport.swift */; };
+		206618453C820C9E12AFF1648E81AEF3 /* HandshakeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A61E64790CDBE90F5F10BCFC3C5E2AC /* HandshakeProtocol.swift */; };
+		2268C125CF0D2F4DEACD82615EB0A0EF /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F1686F76C2ECE8DF39B7FC607F15A8 /* Logger.swift */; };
+		297EA1581897C342A305EF9CDAB4AA35 /* ServerInvocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9480322CF0D7AA48740AB0DF14F650B /* ServerInvocationHandler.swift */; };
+		2C78B29C3897DE1685285F9E3F0FFF68 /* StreamHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3720196266275880BA5378D1DDC3CAB0 /* StreamHandle.swift */; };
+		33E8BBBCD8741E9A2F98CC748E926885 /* WebsocketsTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BEF929767BD34F3C37AA119B4F30A /* WebsocketsTransport.swift */; };
+		36AE7FBE026E6FEDD5B81096EE2C62B8 /* Pods-FRC Field Monitor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B814550C09A9606C585BF0E33326BDDA /* Pods-FRC Field Monitor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A63675BDDC747F13EA6614A421A2E3A /* NegotiationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB79C4C5689837563F56A932ABC4B0E /* NegotiationResponse.swift */; };
+		3CB0FD80F60128C9A39579BB28804996 /* ConnectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8356DBF45EF1FAED0A9220F918B08863 /* ConnectionDelegate.swift */; };
+		48624AF413D619B7B236F70CFC441934 /* NegotiationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB79C4C5689837563F56A932ABC4B0E /* NegotiationResponse.swift */; };
+		4C14FC2B3B10475FABBD7AD7A9CB3921 /* HttpConnectionOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72C2B84DC717BB2B3EBF552570D87B4 /* HttpConnectionOptions.swift */; };
+		4EB0394123371F5A59026B73B343E540 /* DefaultTransportFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FADBDC93F37F5880F252E639FF2D3 /* DefaultTransportFactory.swift */; };
+		52CE4D8DC2C0B4D237E9E732CA4BF8CE /* HubConnectionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F1F43BBB3E7E7E320F0ED036015DA0 /* HubConnectionBuilder.swift */; };
+		54BA7BEE6405EF640973D39415A3A8AC /* HubConnectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC7E999E75E6124B152C9D7B9C1269D /* HubConnectionExtensions.swift */; };
+		575A1ED0A164C75AFC0E1F66701ADAB0 /* WebsocketsTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BEF929767BD34F3C37AA119B4F30A /* WebsocketsTransport.swift */; };
+		5A8C3C31977CE2C3038F2D0B6DF14190 /* ReconnectPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5BACD1FDB45B81F0BB072DFB1E8E42 /* ReconnectPolicy.swift */; };
+		5CE3A872F1B317A3A5BCAEF67E3CF91D /* HttpClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33212A1A61FA3E74930D829CCB346371 /* HttpClientProtocol.swift */; };
+		65E542F4BE50D5AE65147C544813BFFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */; };
+		7275B7B1B51F332B9672F350549C66C9 /* ReconnectableConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A17D13FDA42BEE8E5BCB5BC6D08844A /* ReconnectableConnection.swift */; };
+		749137A6CE4499EC7297847644E3C1C0 /* HttpConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F0C001F8473A030745180C37C713EC /* HttpConnection.swift */; };
+		78B04E31552A03C60E75CDCAFA97784C /* HttpConnectionOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72C2B84DC717BB2B3EBF552570D87B4 /* HttpConnectionOptions.swift */; };
+		7F2FDDF5ABF5004FD54F194FA2A11C0F /* Pods-FRC Field Monitor Watch App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54A98282C7100DF5CBC125C6CD2AE05F /* Pods-FRC Field Monitor Watch App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8331570C3645C7557B7D6E9229137D37 /* LongPollingTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCDBCBF9065D8F18321ECB6B3006D5 /* LongPollingTransport.swift */; };
+		83BE3F3B324934EFE2FE9263FC56489A /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B0F10962285020E5E517F6556F15AC /* HttpResponse.swift */; };
+		87911CF8A54B09D7CEEE14035DE9825A /* HubProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C4EE644D641BFDDEEEA440A694BD84 /* HubProtocol.swift */; };
+		8B5040FDA0FCCC151F7F843E7AF2F5C2 /* HandshakeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A61E64790CDBE90F5F10BCFC3C5E2AC /* HandshakeProtocol.swift */; };
+		8E39E2D3F93FA412ABBF65399A180E97 /* DefaultHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1B20C86CEE68293D2BE5AF06088CD0 /* DefaultHttpClient.swift */; };
+		93FE849B9CB7F1F11079138B28D5AB11 /* ReconnectPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5BACD1FDB45B81F0BB072DFB1E8E42 /* ReconnectPolicy.swift */; };
+		9611BB0B6183DD6C1B0E98AF3269BB2A /* SwiftSignalRClient-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 058D3BF1BEF69CEE772EDC344C484716 /* SwiftSignalRClient-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		966C30506F9321A549899649D47044B2 /* SwiftSignalRClient-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED86EDF74FE9E349706155DE0AE9F136 /* SwiftSignalRClient-watchOS-dummy.m */; };
+		98D08471A6961B0D56F49309A789278B /* Pods-FRC Field Monitor Watch App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1504370265B81C0B7250A3472086EC2F /* Pods-FRC Field Monitor Watch App-dummy.m */; };
+		9C60F50E19B86010C65B9EE7F319BE41 /* SwiftSignalRClient-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D78077C20E352985A2CBCFE77EB4925 /* SwiftSignalRClient-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D4DB50CE229F43E84EACEF0CA0E56D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */; };
+		A1B450D5DF5ED5EC37547AE332EFD487 /* HttpConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F0C001F8473A030745180C37C713EC /* HttpConnection.swift */; };
+		A54D8AC868D8C38E958E471379D46F49 /* HubProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C4EE644D641BFDDEEEA440A694BD84 /* HubProtocol.swift */; };
+		AB0E95C2D6D2DE008D9D4E67E9CBB708 /* ConnectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8356DBF45EF1FAED0A9220F918B08863 /* ConnectionDelegate.swift */; };
+		ACF23A4300BA0BCE8BA5671C0F25578F /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B38626F5E7CF3932DB6EB9679B35A1 /* Connection.swift */; };
+		AE762844B51F56E352B679B66742D426 /* TransportType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B4941C2E146EF58B80444B260F7D7B /* TransportType.swift */; };
+		B3F73F1D9B167B3CF36CDE3B37E257E3 /* ReconnectableConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A17D13FDA42BEE8E5BCB5BC6D08844A /* ReconnectableConnection.swift */; };
+		B4F5A15E0D253C8AF5B2F486E1CB168C /* DefaultTransportFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FADBDC93F37F5880F252E639FF2D3 /* DefaultTransportFactory.swift */; };
+		B5ACB1584A43C7E73830E256E02270D7 /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B0F10962285020E5E517F6556F15AC /* HttpResponse.swift */; };
+		B8CCBEE220D81144496A14C9E82670BE /* TransportDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC5112814C15438BD9E22B154877C96 /* TransportDelegate.swift */; };
+		BA02E35595AAE8F319980BF16A40E418 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */; };
+		BDA8291A4BCBE3DB051650DA79D598A0 /* HubConnectionOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F35BF5A30658653CD41C62BE5CB66AD /* HubConnectionOptions.swift */; };
+		BF9FEA64EFB8E99D691C485C6846014A /* TransferFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6AB9C992DC06A663588E0200B91C5E /* TransferFormat.swift */; };
+		C431E95D2044874B9166402254B4D75B /* Pods-FRC Field Monitor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE9697573C26E28121A808C081550F4 /* Pods-FRC Field Monitor-dummy.m */; };
+		C4BEF7AF5542B4CA4AEBAF31FB39BC03 /* LongPollingTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCDBCBF9065D8F18321ECB6B3006D5 /* LongPollingTransport.swift */; };
+		CA73D036568B666D83D4E27A2A1F460A /* TransportDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC5112814C15438BD9E22B154877C96 /* TransportDelegate.swift */; };
+		CD7E235E19C904B371C96A104D427625 /* TransferFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6AB9C992DC06A663588E0200B91C5E /* TransferFormat.swift */; };
+		CDC69EF9BCC639328FC953DE6857CAF6 /* TransportType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B4941C2E146EF58B80444B260F7D7B /* TransportType.swift */; };
+		CECB0FF5B6B59AAE53197B4A280A1D6B /* SwiftSignalRClient-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AE3380A805DEC5F1D5881850D1E0E0 /* SwiftSignalRClient-iOS-dummy.m */; };
+		D291A04676F37FE7BE32205C4F961EC5 /* HttpClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33212A1A61FA3E74930D829CCB346371 /* HttpClientProtocol.swift */; };
+		D5653292FB9DAE139862E9AC5BE16AE7 /* HubConnectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5698D6D6CDCAC73D5D64EA6467979894 /* HubConnectionDelegate.swift */; };
+		D7CD0B3BF7606B2B4BAD49C1289472DF /* CodableHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D198B67AF366AB11D05FA7DF455362 /* CodableHelpers.swift */; };
+		D7D2C3A3479E7FBA26EF1A824F928EEE /* ServerInvocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9480322CF0D7AA48740AB0DF14F650B /* ServerInvocationHandler.swift */; };
+		E09FDB4AA501091BDA9FAE1916025776 /* HubConnectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5698D6D6CDCAC73D5D64EA6467979894 /* HubConnectionDelegate.swift */; };
+		E2C48EFC4A545FA9A013D55D30E98254 /* CodableHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D198B67AF366AB11D05FA7DF455362 /* CodableHelpers.swift */; };
+		E6241305541E2B80ED1EB6C2464FF008 /* SignalRError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8070B8B232182B4F72321C47A71B5BFB /* SignalRError.swift */; };
+		F1F8177DADE73D12F9ADD6ADE335DC92 /* HubConnectionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F1F43BBB3E7E7E320F0ED036015DA0 /* HubConnectionBuilder.swift */; };
+		F69AEE6D9C5A4E02EFE3054CAA665AA1 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F00E7FF9D09E1F56B4DA40CB223DAB /* Transport.swift */; };
+		F6DDFF37F5199119727742BBC35A6C23 /* DefaultHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1B20C86CEE68293D2BE5AF06088CD0 /* DefaultHttpClient.swift */; };
+		FB1AC55BF06D5471686DDA6787D1EC92 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B38626F5E7CF3932DB6EB9679B35A1 /* Connection.swift */; };
+		FDD0685F547706DB810149DCF4BC6CDC /* JSONHubProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28452774766E924D725F8A8283122E4 /* JSONHubProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		342229CE1F2AAD6F146277A11125C929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37285077391FF4C88D1D9D96FE5D35B8;
+			remoteInfo = "SwiftSignalRClient-iOS";
+		};
+		A88813F79F9B3CAA8431F9FEDC9B88A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9868E40652E9E69BB23FD8E04B63E02;
+			remoteInfo = "SwiftSignalRClient-watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		058D3BF1BEF69CEE772EDC344C484716 /* SwiftSignalRClient-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSignalRClient-iOS-umbrella.h"; sourceTree = "<group>"; };
+		087CB6882D94996A9B97BE29CE7CBB92 /* Pods-FRC Field Monitor Watch App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FRC Field Monitor Watch App-frameworks.sh"; sourceTree = "<group>"; };
+		08F1F43BBB3E7E7E320F0ED036015DA0 /* HubConnectionBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HubConnectionBuilder.swift; path = Sources/SignalRClient/HubConnectionBuilder.swift; sourceTree = "<group>"; };
+		0BC5112814C15438BD9E22B154877C96 /* TransportDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransportDelegate.swift; path = Sources/SignalRClient/TransportDelegate.swift; sourceTree = "<group>"; };
+		0D398CE4F8024BEC63B24C48A37B67C5 /* HubConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HubConnection.swift; path = Sources/SignalRClient/HubConnection.swift; sourceTree = "<group>"; };
+		1504370265B81C0B7250A3472086EC2F /* Pods-FRC Field Monitor Watch App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FRC Field Monitor Watch App-dummy.m"; sourceTree = "<group>"; };
+		15B2287E297623434EACE8253DC18C81 /* Pods-FRC Field Monitor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FRC Field Monitor-acknowledgements.plist"; sourceTree = "<group>"; };
+		17FAD86EDA13125E3AF3E073875844B1 /* SwiftSignalRClient-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSignalRClient-iOS-prefix.pch"; sourceTree = "<group>"; };
+		19A77633B014C095178017B4234B92E5 /* SwiftSignalRClient-watchOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "SwiftSignalRClient-watchOS"; path = SwiftSignalRClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		211C87BCA45C8609B4A9AAC3771FFD89 /* Pods-FRC Field Monitor Watch App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FRC Field Monitor Watch App-Info.plist"; sourceTree = "<group>"; };
+		252B276AFA9CA0E946C17ED3A3473D05 /* Pods-FRC Field Monitor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FRC Field Monitor-frameworks.sh"; sourceTree = "<group>"; };
+		26195545B78152BD2FC05973ABE93439 /* SwiftSignalRClient-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftSignalRClient-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		320993EBD675EA290EDD132EE7F786CD /* SwiftSignalRClient-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SwiftSignalRClient-watchOS.modulemap"; path = "../SwiftSignalRClient-watchOS/SwiftSignalRClient-watchOS.modulemap"; sourceTree = "<group>"; };
+		33212A1A61FA3E74930D829CCB346371 /* HttpClientProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpClientProtocol.swift; path = Sources/SignalRClient/HttpClientProtocol.swift; sourceTree = "<group>"; };
+		358693EC8368F19CA4093D30C3C282F8 /* Pods-FRC Field Monitor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FRC Field Monitor.modulemap"; sourceTree = "<group>"; };
+		3720196266275880BA5378D1DDC3CAB0 /* StreamHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamHandle.swift; path = Sources/SignalRClient/StreamHandle.swift; sourceTree = "<group>"; };
+		397E2009143AC9ED3E6CE0F090AC4392 /* SwiftSignalRClient-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "SwiftSignalRClient-iOS"; path = SwiftSignalRClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		459F15E9819FB5B3E59C69336DCC40A1 /* SwiftSignalRClient-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftSignalRClient-watchOS-prefix.pch"; path = "../SwiftSignalRClient-watchOS/SwiftSignalRClient-watchOS-prefix.pch"; sourceTree = "<group>"; };
+		497AA8A508970F658135DC13BE99C704 /* SwiftSignalRClient-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftSignalRClient-iOS-Info.plist"; sourceTree = "<group>"; };
+		4BCEE7BC4A3F3B9B53AE0FEA1355808F /* Pods-FRC Field Monitor Watch App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FRC Field Monitor Watch App"; path = Pods_FRC_Field_Monitor_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1B20C86CEE68293D2BE5AF06088CD0 /* DefaultHttpClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultHttpClient.swift; path = Sources/SignalRClient/DefaultHttpClient.swift; sourceTree = "<group>"; };
+		4F35BF5A30658653CD41C62BE5CB66AD /* HubConnectionOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HubConnectionOptions.swift; path = Sources/SignalRClient/HubConnectionOptions.swift; sourceTree = "<group>"; };
+		4F5BACD1FDB45B81F0BB072DFB1E8E42 /* ReconnectPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReconnectPolicy.swift; path = Sources/SignalRClient/ReconnectPolicy.swift; sourceTree = "<group>"; };
+		53C4EE644D641BFDDEEEA440A694BD84 /* HubProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HubProtocol.swift; path = Sources/SignalRClient/HubProtocol.swift; sourceTree = "<group>"; };
+		54A98282C7100DF5CBC125C6CD2AE05F /* Pods-FRC Field Monitor Watch App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FRC Field Monitor Watch App-umbrella.h"; sourceTree = "<group>"; };
+		5698D6D6CDCAC73D5D64EA6467979894 /* HubConnectionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HubConnectionDelegate.swift; path = Sources/SignalRClient/HubConnectionDelegate.swift; sourceTree = "<group>"; };
+		5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		60E1F31E1B2EA55F1732E04EBA930184 /* SwiftSignalRClient-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftSignalRClient-watchOS.debug.xcconfig"; path = "../SwiftSignalRClient-watchOS/SwiftSignalRClient-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		63554ABF656DD7E08A4708DF85FB7C8E /* Pods-FRC Field Monitor Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FRC Field Monitor Watch App.debug.xcconfig"; sourceTree = "<group>"; };
+		6A17D13FDA42BEE8E5BCB5BC6D08844A /* ReconnectableConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReconnectableConnection.swift; path = Sources/SignalRClient/ReconnectableConnection.swift; sourceTree = "<group>"; };
+		6EFCDBCBF9065D8F18321ECB6B3006D5 /* LongPollingTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LongPollingTransport.swift; path = Sources/SignalRClient/LongPollingTransport.swift; sourceTree = "<group>"; };
+		71995F794B8249FE777F12DB27C76494 /* SwiftSignalRClient-watchOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "SwiftSignalRClient-watchOS-Info.plist"; path = "../SwiftSignalRClient-watchOS/SwiftSignalRClient-watchOS-Info.plist"; sourceTree = "<group>"; };
+		7CC7E999E75E6124B152C9D7B9C1269D /* HubConnectionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HubConnectionExtensions.swift; path = Sources/SignalRClient/HubConnectionExtensions.swift; sourceTree = "<group>"; };
+		8070B8B232182B4F72321C47A71B5BFB /* SignalRError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignalRError.swift; path = Sources/SignalRClient/SignalRError.swift; sourceTree = "<group>"; };
+		8356DBF45EF1FAED0A9220F918B08863 /* ConnectionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConnectionDelegate.swift; path = Sources/SignalRClient/ConnectionDelegate.swift; sourceTree = "<group>"; };
+		83AE3380A805DEC5F1D5881850D1E0E0 /* SwiftSignalRClient-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSignalRClient-iOS-dummy.m"; sourceTree = "<group>"; };
+		890BEF929767BD34F3C37AA119B4F30A /* WebsocketsTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebsocketsTransport.swift; path = Sources/SignalRClient/WebsocketsTransport.swift; sourceTree = "<group>"; };
+		8A4DF26CE593ECDFF6EC49AEE603F387 /* Pods-FRC Field Monitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FRC Field Monitor.debug.xcconfig"; sourceTree = "<group>"; };
+		8A55F55F521C6E06EF5A158055C540DC /* Pods-FRC Field Monitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FRC Field Monitor.release.xcconfig"; sourceTree = "<group>"; };
+		8D78077C20E352985A2CBCFE77EB4925 /* SwiftSignalRClient-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftSignalRClient-watchOS-umbrella.h"; path = "../SwiftSignalRClient-watchOS/SwiftSignalRClient-watchOS-umbrella.h"; sourceTree = "<group>"; };
+		9812A6FA87C380D8A93A95D243CD698F /* Pods-FRC Field Monitor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FRC Field Monitor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99D198B67AF366AB11D05FA7DF455362 /* CodableHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableHelpers.swift; path = Sources/SignalRClient/CodableHelpers.swift; sourceTree = "<group>"; };
+		9A61E64790CDBE90F5F10BCFC3C5E2AC /* HandshakeProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HandshakeProtocol.swift; path = Sources/SignalRClient/HandshakeProtocol.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0DBDBFFB18C7BBE1AC90AC329222AA7 /* Pods-FRC Field Monitor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FRC Field Monitor-Info.plist"; sourceTree = "<group>"; };
+		A6BBB32149389E2587181C51269AAE9A /* SwiftSignalRClient-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftSignalRClient-watchOS.release.xcconfig"; path = "../SwiftSignalRClient-watchOS/SwiftSignalRClient-watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		A6F1686F76C2ECE8DF39B7FC607F15A8 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Sources/SignalRClient/Logger.swift; sourceTree = "<group>"; };
+		A9B38626F5E7CF3932DB6EB9679B35A1 /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/SignalRClient/Connection.swift; sourceTree = "<group>"; };
+		AA6AB9C992DC06A663588E0200B91C5E /* TransferFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransferFormat.swift; path = Sources/SignalRClient/TransferFormat.swift; sourceTree = "<group>"; };
+		B0F00E7FF9D09E1F56B4DA40CB223DAB /* Transport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transport.swift; path = Sources/SignalRClient/Transport.swift; sourceTree = "<group>"; };
+		B28452774766E924D725F8A8283122E4 /* JSONHubProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONHubProtocol.swift; path = Sources/SignalRClient/JSONHubProtocol.swift; sourceTree = "<group>"; };
+		B60D57F039EFB729CC4DFA5441095155 /* SwiftSignalRClient-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SwiftSignalRClient-iOS.modulemap"; sourceTree = "<group>"; };
+		B814550C09A9606C585BF0E33326BDDA /* Pods-FRC Field Monitor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FRC Field Monitor-umbrella.h"; sourceTree = "<group>"; };
+		BBB79C4C5689837563F56A932ABC4B0E /* NegotiationResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NegotiationResponse.swift; path = Sources/SignalRClient/NegotiationResponse.swift; sourceTree = "<group>"; };
+		C3B4941C2E146EF58B80444B260F7D7B /* TransportType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransportType.swift; path = Sources/SignalRClient/TransportType.swift; sourceTree = "<group>"; };
+		C4CD13754ED13079D8E75D1F8220B720 /* Pods-FRC Field Monitor Watch App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FRC Field Monitor Watch App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C967E12006B2B158113F3B8A0F4B0753 /* Pods-FRC Field Monitor Watch App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FRC Field Monitor Watch App-acknowledgements.plist"; sourceTree = "<group>"; };
+		DCE9697573C26E28121A808C081550F4 /* Pods-FRC Field Monitor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FRC Field Monitor-dummy.m"; sourceTree = "<group>"; };
+		E2580994322A70E45F2183D164EA7F8A /* SwiftSignalRClient-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftSignalRClient-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		E72C2B84DC717BB2B3EBF552570D87B4 /* HttpConnectionOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpConnectionOptions.swift; path = Sources/SignalRClient/HttpConnectionOptions.swift; sourceTree = "<group>"; };
+		E78ECFFC62252A60452326D96A5BD47A /* Pods-FRC Field Monitor */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FRC Field Monitor"; path = Pods_FRC_Field_Monitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9480322CF0D7AA48740AB0DF14F650B /* ServerInvocationHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerInvocationHandler.swift; path = Sources/SignalRClient/ServerInvocationHandler.swift; sourceTree = "<group>"; };
+		ED86EDF74FE9E349706155DE0AE9F136 /* SwiftSignalRClient-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SwiftSignalRClient-watchOS-dummy.m"; path = "../SwiftSignalRClient-watchOS/SwiftSignalRClient-watchOS-dummy.m"; sourceTree = "<group>"; };
+		F1F0C001F8473A030745180C37C713EC /* HttpConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpConnection.swift; path = Sources/SignalRClient/HttpConnection.swift; sourceTree = "<group>"; };
+		F5B0F10962285020E5E517F6556F15AC /* HttpResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpResponse.swift; path = Sources/SignalRClient/HttpResponse.swift; sourceTree = "<group>"; };
+		F72B07C14CA099872B9A3CB9AF83AD21 /* Pods-FRC Field Monitor Watch App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FRC Field Monitor Watch App.release.xcconfig"; sourceTree = "<group>"; };
+		F87FADBDC93F37F5880F252E639FF2D3 /* DefaultTransportFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultTransportFactory.swift; path = Sources/SignalRClient/DefaultTransportFactory.swift; sourceTree = "<group>"; };
+		FB6BC65E144B38CD83D8AFAC5CC777D5 /* Pods-FRC Field Monitor Watch App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FRC Field Monitor Watch App.modulemap"; sourceTree = "<group>"; };
+		FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		154111547144554B4C088FB00705C0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01141C876CF0305BEB4C06DDCABB74EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47926BD5964D0A86EC0C851562F0BE4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E542F4BE50D5AE65147C544813BFFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FBD1C799D4D1939DA16C3AC1B2C46EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4DB50CE229F43E84EACEF0CA0E56D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69951A752ED7360AA369FEEC431CBDB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA02E35595AAE8F319980BF16A40E418 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03FBABE5ACCBF0D21AB61D364299D310 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0B698508F10E5FF4CE3576F416A6BA07 /* Pods-FRC Field Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				358693EC8368F19CA4093D30C3C282F8 /* Pods-FRC Field Monitor.modulemap */,
+				9812A6FA87C380D8A93A95D243CD698F /* Pods-FRC Field Monitor-acknowledgements.markdown */,
+				15B2287E297623434EACE8253DC18C81 /* Pods-FRC Field Monitor-acknowledgements.plist */,
+				DCE9697573C26E28121A808C081550F4 /* Pods-FRC Field Monitor-dummy.m */,
+				252B276AFA9CA0E946C17ED3A3473D05 /* Pods-FRC Field Monitor-frameworks.sh */,
+				A0DBDBFFB18C7BBE1AC90AC329222AA7 /* Pods-FRC Field Monitor-Info.plist */,
+				B814550C09A9606C585BF0E33326BDDA /* Pods-FRC Field Monitor-umbrella.h */,
+				8A4DF26CE593ECDFF6EC49AEE603F387 /* Pods-FRC Field Monitor.debug.xcconfig */,
+				8A55F55F521C6E06EF5A158055C540DC /* Pods-FRC Field Monitor.release.xcconfig */,
+			);
+			name = "Pods-FRC Field Monitor";
+			path = "Target Support Files/Pods-FRC Field Monitor";
+			sourceTree = "<group>";
+		};
+		2ABE4D6E7E4B9BB11724C9B7D1B0477C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B60D57F039EFB729CC4DFA5441095155 /* SwiftSignalRClient-iOS.modulemap */,
+				83AE3380A805DEC5F1D5881850D1E0E0 /* SwiftSignalRClient-iOS-dummy.m */,
+				497AA8A508970F658135DC13BE99C704 /* SwiftSignalRClient-iOS-Info.plist */,
+				17FAD86EDA13125E3AF3E073875844B1 /* SwiftSignalRClient-iOS-prefix.pch */,
+				058D3BF1BEF69CEE772EDC344C484716 /* SwiftSignalRClient-iOS-umbrella.h */,
+				26195545B78152BD2FC05973ABE93439 /* SwiftSignalRClient-iOS.debug.xcconfig */,
+				E2580994322A70E45F2183D164EA7F8A /* SwiftSignalRClient-iOS.release.xcconfig */,
+				320993EBD675EA290EDD132EE7F786CD /* SwiftSignalRClient-watchOS.modulemap */,
+				ED86EDF74FE9E349706155DE0AE9F136 /* SwiftSignalRClient-watchOS-dummy.m */,
+				71995F794B8249FE777F12DB27C76494 /* SwiftSignalRClient-watchOS-Info.plist */,
+				459F15E9819FB5B3E59C69336DCC40A1 /* SwiftSignalRClient-watchOS-prefix.pch */,
+				8D78077C20E352985A2CBCFE77EB4925 /* SwiftSignalRClient-watchOS-umbrella.h */,
+				60E1F31E1B2EA55F1732E04EBA930184 /* SwiftSignalRClient-watchOS.debug.xcconfig */,
+				A6BBB32149389E2587181C51269AAE9A /* SwiftSignalRClient-watchOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSignalRClient-iOS";
+			sourceTree = "<group>";
+		};
+		4528084989D0654632FF3920EC07246F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E78ECFFC62252A60452326D96A5BD47A /* Pods-FRC Field Monitor */,
+				4BCEE7BC4A3F3B9B53AE0FEA1355808F /* Pods-FRC Field Monitor Watch App */,
+				397E2009143AC9ED3E6CE0F090AC4392 /* SwiftSignalRClient-iOS */,
+				19A77633B014C095178017B4234B92E5 /* SwiftSignalRClient-watchOS */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54CCD06893F300F5B2C02DAFD57093E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03FBABE5ACCBF0D21AB61D364299D310 /* iOS */,
+				8B063FB5829CC11F1F48DAAF9305FCB4 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F28AD5F502BC39C5938667FBF917B2D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B698508F10E5FF4CE3576F416A6BA07 /* Pods-FRC Field Monitor */,
+				BF56465B4C27D1183727B6D843175804 /* Pods-FRC Field Monitor Watch App */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		761F2E656CB14AF5A4E1C9DBC3A927F8 /* SwiftSignalRClient */ = {
+			isa = PBXGroup;
+			children = (
+				99D198B67AF366AB11D05FA7DF455362 /* CodableHelpers.swift */,
+				A9B38626F5E7CF3932DB6EB9679B35A1 /* Connection.swift */,
+				8356DBF45EF1FAED0A9220F918B08863 /* ConnectionDelegate.swift */,
+				4C1B20C86CEE68293D2BE5AF06088CD0 /* DefaultHttpClient.swift */,
+				F87FADBDC93F37F5880F252E639FF2D3 /* DefaultTransportFactory.swift */,
+				9A61E64790CDBE90F5F10BCFC3C5E2AC /* HandshakeProtocol.swift */,
+				33212A1A61FA3E74930D829CCB346371 /* HttpClientProtocol.swift */,
+				F1F0C001F8473A030745180C37C713EC /* HttpConnection.swift */,
+				E72C2B84DC717BB2B3EBF552570D87B4 /* HttpConnectionOptions.swift */,
+				F5B0F10962285020E5E517F6556F15AC /* HttpResponse.swift */,
+				0D398CE4F8024BEC63B24C48A37B67C5 /* HubConnection.swift */,
+				08F1F43BBB3E7E7E320F0ED036015DA0 /* HubConnectionBuilder.swift */,
+				5698D6D6CDCAC73D5D64EA6467979894 /* HubConnectionDelegate.swift */,
+				7CC7E999E75E6124B152C9D7B9C1269D /* HubConnectionExtensions.swift */,
+				4F35BF5A30658653CD41C62BE5CB66AD /* HubConnectionOptions.swift */,
+				53C4EE644D641BFDDEEEA440A694BD84 /* HubProtocol.swift */,
+				B28452774766E924D725F8A8283122E4 /* JSONHubProtocol.swift */,
+				A6F1686F76C2ECE8DF39B7FC607F15A8 /* Logger.swift */,
+				6EFCDBCBF9065D8F18321ECB6B3006D5 /* LongPollingTransport.swift */,
+				BBB79C4C5689837563F56A932ABC4B0E /* NegotiationResponse.swift */,
+				6A17D13FDA42BEE8E5BCB5BC6D08844A /* ReconnectableConnection.swift */,
+				4F5BACD1FDB45B81F0BB072DFB1E8E42 /* ReconnectPolicy.swift */,
+				E9480322CF0D7AA48740AB0DF14F650B /* ServerInvocationHandler.swift */,
+				8070B8B232182B4F72321C47A71B5BFB /* SignalRError.swift */,
+				3720196266275880BA5378D1DDC3CAB0 /* StreamHandle.swift */,
+				AA6AB9C992DC06A663588E0200B91C5E /* TransferFormat.swift */,
+				B0F00E7FF9D09E1F56B4DA40CB223DAB /* Transport.swift */,
+				0BC5112814C15438BD9E22B154877C96 /* TransportDelegate.swift */,
+				C3B4941C2E146EF58B80444B260F7D7B /* TransportType.swift */,
+				890BEF929767BD34F3C37AA119B4F30A /* WebsocketsTransport.swift */,
+				2ABE4D6E7E4B9BB11724C9B7D1B0477C /* Support Files */,
+			);
+			name = SwiftSignalRClient;
+			path = SwiftSignalRClient;
+			sourceTree = "<group>";
+		};
+		869BA65B8F80B4660BD1C1D1E2759C17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				761F2E656CB14AF5A4E1C9DBC3A927F8 /* SwiftSignalRClient */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B063FB5829CC11F1F48DAAF9305FCB4 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		BF56465B4C27D1183727B6D843175804 /* Pods-FRC Field Monitor Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				FB6BC65E144B38CD83D8AFAC5CC777D5 /* Pods-FRC Field Monitor Watch App.modulemap */,
+				C4CD13754ED13079D8E75D1F8220B720 /* Pods-FRC Field Monitor Watch App-acknowledgements.markdown */,
+				C967E12006B2B158113F3B8A0F4B0753 /* Pods-FRC Field Monitor Watch App-acknowledgements.plist */,
+				1504370265B81C0B7250A3472086EC2F /* Pods-FRC Field Monitor Watch App-dummy.m */,
+				087CB6882D94996A9B97BE29CE7CBB92 /* Pods-FRC Field Monitor Watch App-frameworks.sh */,
+				211C87BCA45C8609B4A9AAC3771FFD89 /* Pods-FRC Field Monitor Watch App-Info.plist */,
+				54A98282C7100DF5CBC125C6CD2AE05F /* Pods-FRC Field Monitor Watch App-umbrella.h */,
+				63554ABF656DD7E08A4708DF85FB7C8E /* Pods-FRC Field Monitor Watch App.debug.xcconfig */,
+				F72B07C14CA099872B9A3CB9AF83AD21 /* Pods-FRC Field Monitor Watch App.release.xcconfig */,
+			);
+			name = "Pods-FRC Field Monitor Watch App";
+			path = "Target Support Files/Pods-FRC Field Monitor Watch App";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				54CCD06893F300F5B2C02DAFD57093E1 /* Frameworks */,
+				869BA65B8F80B4660BD1C1D1E2759C17 /* Pods */,
+				4528084989D0654632FF3920EC07246F /* Products */,
+				6F28AD5F502BC39C5938667FBF917B2D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		297B3B6A08C38D3D2A7508C5BF010FC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9611BB0B6183DD6C1B0E98AF3269BB2A /* SwiftSignalRClient-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD449F1B5F6CBF629736088A64E649CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2FDDF5ABF5004FD54F194FA2A11C0F /* Pods-FRC Field Monitor Watch App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A08F1D468754F2583FD1DA738E280A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C60F50E19B86010C65B9EE7F319BE41 /* SwiftSignalRClient-watchOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AC768B57AE67E1EEF84F7707441787 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36AE7FBE026E6FEDD5B81096EE2C62B8 /* Pods-FRC Field Monitor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		37285077391FF4C88D1D9D96FE5D35B8 /* SwiftSignalRClient-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB4D935C12806CE6EADB5FCC336468BC /* Build configuration list for PBXNativeTarget "SwiftSignalRClient-iOS" */;
+			buildPhases = (
+				297B3B6A08C38D3D2A7508C5BF010FC6 /* Headers */,
+				4BDA60373D240D633B723DF54454B136 /* Sources */,
+				154111547144554B4C088FB00705C0D8 /* Frameworks */,
+				67AF2094831B10E4863448B99CB6F5E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftSignalRClient-iOS";
+			productName = SwiftSignalRClient;
+			productReference = 397E2009143AC9ED3E6CE0F090AC4392 /* SwiftSignalRClient-iOS */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9868E40652E9E69BB23FD8E04B63E02 /* SwiftSignalRClient-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4001BB192C15367077F9998DC270B3FF /* Build configuration list for PBXNativeTarget "SwiftSignalRClient-watchOS" */;
+			buildPhases = (
+				C4A08F1D468754F2583FD1DA738E280A /* Headers */,
+				9A0AF31A591E5E5E34BB75A4CFFD0821 /* Sources */,
+				69951A752ED7360AA369FEEC431CBDB4 /* Frameworks */,
+				B10B98FEB6B03FE18CEC531A26BF4A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftSignalRClient-watchOS";
+			productName = SwiftSignalRClient;
+			productReference = 19A77633B014C095178017B4234B92E5 /* SwiftSignalRClient-watchOS */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1E0D1D4EBEA696F3DAF82FF8468AC3F /* Pods-FRC Field Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32864BC86540D1D347A3F7A4E5EA354 /* Build configuration list for PBXNativeTarget "Pods-FRC Field Monitor" */;
+			buildPhases = (
+				F2AC768B57AE67E1EEF84F7707441787 /* Headers */,
+				A228B47D37AD9A7CE18E8D5F02B32BDE /* Sources */,
+				47926BD5964D0A86EC0C851562F0BE4B /* Frameworks */,
+				68DA768591CE22B5D48D723689206E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF0B96523F64CEEA4D772C718E371D97 /* PBXTargetDependency */,
+			);
+			name = "Pods-FRC Field Monitor";
+			productName = Pods_FRC_Field_Monitor;
+			productReference = E78ECFFC62252A60452326D96A5BD47A /* Pods-FRC Field Monitor */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC2F191A4E8E1464773285381D517E5F /* Pods-FRC Field Monitor Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06F5145D65560BE30247B059A84BEFE /* Build configuration list for PBXNativeTarget "Pods-FRC Field Monitor Watch App" */;
+			buildPhases = (
+				AD449F1B5F6CBF629736088A64E649CE /* Headers */,
+				46A4ED20ABC65D863E0BD01F1CF754B1 /* Sources */,
+				5FBD1C799D4D1939DA16C3AC1B2C46EE /* Frameworks */,
+				F6A10270EAE9C254B567FE5123054ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ADBF8F3D53A33BD3245D797C33C9755 /* PBXTargetDependency */,
+			);
+			name = "Pods-FRC Field Monitor Watch App";
+			productName = Pods_FRC_Field_Monitor_Watch_App;
+			productReference = 4BCEE7BC4A3F3B9B53AE0FEA1355808F /* Pods-FRC Field Monitor Watch App */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4528084989D0654632FF3920EC07246F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1E0D1D4EBEA696F3DAF82FF8468AC3F /* Pods-FRC Field Monitor */,
+				EC2F191A4E8E1464773285381D517E5F /* Pods-FRC Field Monitor Watch App */,
+				37285077391FF4C88D1D9D96FE5D35B8 /* SwiftSignalRClient-iOS */,
+				A9868E40652E9E69BB23FD8E04B63E02 /* SwiftSignalRClient-watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67AF2094831B10E4863448B99CB6F5E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DA768591CE22B5D48D723689206E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10B98FEB6B03FE18CEC531A26BF4A0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A10270EAE9C254B567FE5123054ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46A4ED20ABC65D863E0BD01F1CF754B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D08471A6961B0D56F49309A789278B /* Pods-FRC Field Monitor Watch App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BDA60373D240D633B723DF54454B136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7CD0B3BF7606B2B4BAD49C1289472DF /* CodableHelpers.swift in Sources */,
+				ACF23A4300BA0BCE8BA5671C0F25578F /* Connection.swift in Sources */,
+				3CB0FD80F60128C9A39579BB28804996 /* ConnectionDelegate.swift in Sources */,
+				8E39E2D3F93FA412ABBF65399A180E97 /* DefaultHttpClient.swift in Sources */,
+				4EB0394123371F5A59026B73B343E540 /* DefaultTransportFactory.swift in Sources */,
+				8B5040FDA0FCCC151F7F843E7AF2F5C2 /* HandshakeProtocol.swift in Sources */,
+				5CE3A872F1B317A3A5BCAEF67E3CF91D /* HttpClientProtocol.swift in Sources */,
+				749137A6CE4499EC7297847644E3C1C0 /* HttpConnection.swift in Sources */,
+				78B04E31552A03C60E75CDCAFA97784C /* HttpConnectionOptions.swift in Sources */,
+				83BE3F3B324934EFE2FE9263FC56489A /* HttpResponse.swift in Sources */,
+				041FD63D682866A1F89358EF8B1928F8 /* HubConnection.swift in Sources */,
+				52CE4D8DC2C0B4D237E9E732CA4BF8CE /* HubConnectionBuilder.swift in Sources */,
+				E09FDB4AA501091BDA9FAE1916025776 /* HubConnectionDelegate.swift in Sources */,
+				54BA7BEE6405EF640973D39415A3A8AC /* HubConnectionExtensions.swift in Sources */,
+				069FA44FB36D2A71C7770735F1B2B108 /* HubConnectionOptions.swift in Sources */,
+				A54D8AC868D8C38E958E471379D46F49 /* HubProtocol.swift in Sources */,
+				053B97662DEDC087F832623AD35AE4A1 /* JSONHubProtocol.swift in Sources */,
+				2268C125CF0D2F4DEACD82615EB0A0EF /* Logger.swift in Sources */,
+				8331570C3645C7557B7D6E9229137D37 /* LongPollingTransport.swift in Sources */,
+				48624AF413D619B7B236F70CFC441934 /* NegotiationResponse.swift in Sources */,
+				7275B7B1B51F332B9672F350549C66C9 /* ReconnectableConnection.swift in Sources */,
+				93FE849B9CB7F1F11079138B28D5AB11 /* ReconnectPolicy.swift in Sources */,
+				297EA1581897C342A305EF9CDAB4AA35 /* ServerInvocationHandler.swift in Sources */,
+				0FA5A9B0342308E33E97C8FD1824258C /* SignalRError.swift in Sources */,
+				2C78B29C3897DE1685285F9E3F0FFF68 /* StreamHandle.swift in Sources */,
+				CECB0FF5B6B59AAE53197B4A280A1D6B /* SwiftSignalRClient-iOS-dummy.m in Sources */,
+				CD7E235E19C904B371C96A104D427625 /* TransferFormat.swift in Sources */,
+				10CA79BC50B5CA28073D453C19DACD21 /* Transport.swift in Sources */,
+				B8CCBEE220D81144496A14C9E82670BE /* TransportDelegate.swift in Sources */,
+				AE762844B51F56E352B679B66742D426 /* TransportType.swift in Sources */,
+				575A1ED0A164C75AFC0E1F66701ADAB0 /* WebsocketsTransport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0AF31A591E5E5E34BB75A4CFFD0821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C48EFC4A545FA9A013D55D30E98254 /* CodableHelpers.swift in Sources */,
+				FB1AC55BF06D5471686DDA6787D1EC92 /* Connection.swift in Sources */,
+				AB0E95C2D6D2DE008D9D4E67E9CBB708 /* ConnectionDelegate.swift in Sources */,
+				F6DDFF37F5199119727742BBC35A6C23 /* DefaultHttpClient.swift in Sources */,
+				B4F5A15E0D253C8AF5B2F486E1CB168C /* DefaultTransportFactory.swift in Sources */,
+				206618453C820C9E12AFF1648E81AEF3 /* HandshakeProtocol.swift in Sources */,
+				D291A04676F37FE7BE32205C4F961EC5 /* HttpClientProtocol.swift in Sources */,
+				A1B450D5DF5ED5EC37547AE332EFD487 /* HttpConnection.swift in Sources */,
+				4C14FC2B3B10475FABBD7AD7A9CB3921 /* HttpConnectionOptions.swift in Sources */,
+				B5ACB1584A43C7E73830E256E02270D7 /* HttpResponse.swift in Sources */,
+				055F5D6E62F5F8F61AD399DF472170DE /* HubConnection.swift in Sources */,
+				F1F8177DADE73D12F9ADD6ADE335DC92 /* HubConnectionBuilder.swift in Sources */,
+				D5653292FB9DAE139862E9AC5BE16AE7 /* HubConnectionDelegate.swift in Sources */,
+				055C36ED8D28CF06FA43B07BAE65A58D /* HubConnectionExtensions.swift in Sources */,
+				BDA8291A4BCBE3DB051650DA79D598A0 /* HubConnectionOptions.swift in Sources */,
+				87911CF8A54B09D7CEEE14035DE9825A /* HubProtocol.swift in Sources */,
+				FDD0685F547706DB810149DCF4BC6CDC /* JSONHubProtocol.swift in Sources */,
+				0FB65B8929BB19529F57985B5666266C /* Logger.swift in Sources */,
+				C4BEF7AF5542B4CA4AEBAF31FB39BC03 /* LongPollingTransport.swift in Sources */,
+				3A63675BDDC747F13EA6614A421A2E3A /* NegotiationResponse.swift in Sources */,
+				B3F73F1D9B167B3CF36CDE3B37E257E3 /* ReconnectableConnection.swift in Sources */,
+				5A8C3C31977CE2C3038F2D0B6DF14190 /* ReconnectPolicy.swift in Sources */,
+				D7D2C3A3479E7FBA26EF1A824F928EEE /* ServerInvocationHandler.swift in Sources */,
+				E6241305541E2B80ED1EB6C2464FF008 /* SignalRError.swift in Sources */,
+				094D5C92CDACECBBDC0B80F204E4D869 /* StreamHandle.swift in Sources */,
+				966C30506F9321A549899649D47044B2 /* SwiftSignalRClient-watchOS-dummy.m in Sources */,
+				BF9FEA64EFB8E99D691C485C6846014A /* TransferFormat.swift in Sources */,
+				F69AEE6D9C5A4E02EFE3054CAA665AA1 /* Transport.swift in Sources */,
+				CA73D036568B666D83D4E27A2A1F460A /* TransportDelegate.swift in Sources */,
+				CDC69EF9BCC639328FC953DE6857CAF6 /* TransportType.swift in Sources */,
+				33E8BBBCD8741E9A2F98CC748E926885 /* WebsocketsTransport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A228B47D37AD9A7CE18E8D5F02B32BDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C431E95D2044874B9166402254B4D75B /* Pods-FRC Field Monitor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ADBF8F3D53A33BD3245D797C33C9755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftSignalRClient-watchOS";
+			target = A9868E40652E9E69BB23FD8E04B63E02 /* SwiftSignalRClient-watchOS */;
+			targetProxy = A88813F79F9B3CAA8431F9FEDC9B88A8 /* PBXContainerItemProxy */;
+		};
+		EF0B96523F64CEEA4D772C718E371D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftSignalRClient-iOS";
+			target = 37285077391FF4C88D1D9D96FE5D35B8 /* SwiftSignalRClient-iOS */;
+			targetProxy = 342229CE1F2AAD6F146277A11125C929 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0966827EC3104EBDB3C7027364F21221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60E1F31E1B2EA55F1732E04EBA930184 /* SwiftSignalRClient-watchOS.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSignalRClient-watchOS/SwiftSignalRClient-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSignalRClient-watchOS/SwiftSignalRClient-watchOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSignalRClient-watchOS/SwiftSignalRClient-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSignalRClient;
+				PRODUCT_NAME = SwiftSignalRClient;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		55A21B178E5C58B5DBE5C37FB161C13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		69EC2B63DDC952B2EFD0FCA230D70CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F72B07C14CA099872B9A3CB9AF83AD21 /* Pods-FRC Field Monitor Watch App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FRC Field Monitor Watch App/Pods-FRC Field Monitor Watch App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FRC Field Monitor Watch App/Pods-FRC Field Monitor Watch App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		7A64CDDDEACCABAD4F9C8D971AF1E94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		7AF5A07465DE872A61959D632E7A5D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26195545B78152BD2FC05973ABE93439 /* SwiftSignalRClient-iOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSignalRClient-iOS/SwiftSignalRClient-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSignalRClient-iOS/SwiftSignalRClient-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSignalRClient-iOS/SwiftSignalRClient-iOS.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSignalRClient;
+				PRODUCT_NAME = SwiftSignalRClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		855FD68329A5704C3F7AA25047483F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63554ABF656DD7E08A4708DF85FB7C8E /* Pods-FRC Field Monitor Watch App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FRC Field Monitor Watch App/Pods-FRC Field Monitor Watch App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FRC Field Monitor Watch App/Pods-FRC Field Monitor Watch App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		8D5CC3B71B259144E1AC87F90E9E145E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2580994322A70E45F2183D164EA7F8A /* SwiftSignalRClient-iOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSignalRClient-iOS/SwiftSignalRClient-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSignalRClient-iOS/SwiftSignalRClient-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSignalRClient-iOS/SwiftSignalRClient-iOS.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSignalRClient;
+				PRODUCT_NAME = SwiftSignalRClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC994C8670748F1EEFACB67259234961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BBB32149389E2587181C51269AAE9A /* SwiftSignalRClient-watchOS.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSignalRClient-watchOS/SwiftSignalRClient-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSignalRClient-watchOS/SwiftSignalRClient-watchOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSignalRClient-watchOS/SwiftSignalRClient-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSignalRClient;
+				PRODUCT_NAME = SwiftSignalRClient;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		BD31C4C4BE340D476246B5A453F5DA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A4DF26CE593ECDFF6EC49AEE603F387 /* Pods-FRC Field Monitor.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FRC Field Monitor/Pods-FRC Field Monitor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FRC Field Monitor/Pods-FRC Field Monitor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC488A755CA2789591BA5CC1190DAFFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A55F55F521C6E06EF5A158055C540DC /* Pods-FRC Field Monitor.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FRC Field Monitor/Pods-FRC Field Monitor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FRC Field Monitor/Pods-FRC Field Monitor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4001BB192C15367077F9998DC270B3FF /* Build configuration list for PBXNativeTarget "SwiftSignalRClient-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0966827EC3104EBDB3C7027364F21221 /* Debug */,
+				AC994C8670748F1EEFACB67259234961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A64CDDDEACCABAD4F9C8D971AF1E94A /* Debug */,
+				55A21B178E5C58B5DBE5C37FB161C13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32864BC86540D1D347A3F7A4E5EA354 /* Build configuration list for PBXNativeTarget "Pods-FRC Field Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD31C4C4BE340D476246B5A453F5DA36 /* Debug */,
+				FC488A755CA2789591BA5CC1190DAFFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB4D935C12806CE6EADB5FCC336468BC /* Build configuration list for PBXNativeTarget "SwiftSignalRClient-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF5A07465DE872A61959D632E7A5D48 /* Debug */,
+				8D5CC3B71B259144E1AC87F90E9E145E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06F5145D65560BE30247B059A84BEFE /* Build configuration list for PBXNativeTarget "Pods-FRC Field Monitor Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855FD68329A5704C3F7AA25047483F7C /* Debug */,
+				69EC2B63DDC952B2EFD0FCA230D70CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -8,7 +8,8 @@
 import SwiftUI
 
 @main
-struct FRC_Field_MonitorApp: App {
+struct FRC_Field_MonitorApp: App {   
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

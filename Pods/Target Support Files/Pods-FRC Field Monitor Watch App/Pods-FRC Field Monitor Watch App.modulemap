@@ -1,0 +1,6 @@
+framework module Pods_FRC_Field_Monitor_Watch_App {
+  umbrella header "Pods-FRC Field Monitor Watch App-umbrella.h"
+
+  export *
+  module * { export * }
+}
